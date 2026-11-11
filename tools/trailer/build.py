@@ -4,15 +4,14 @@
     python tools/trailer/build.py
 
 Writes docs/preview.gif (a silent loop for the top of the README), docs/trailer.mp4
-(with the app's own sound) and docs/trailer.png (the picture that links to the video).
-Needs the imageio-ffmpeg and Pillow packages.
+(with the app's own sound) and docs/trailer.gif (the same trailer, silent, shown in
+the README). Needs the imageio-ffmpeg package.
 """
 import os
 import subprocess
 import wave
 
 import imageio_ffmpeg
-from PIL import Image, ImageDraw
 
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -54,15 +53,14 @@ ffmpeg(
 )
 print("trailer.mp4  %.1f MB, %.1f s" % (size_mb(trailer), seconds))
 
-# The poster: a frame of the app playing, with a play button on it.
-frame = Image.open(os.path.join(SRC, "frames", "00120.png")).convert("RGBA")
-frame = frame.resize((1280, round(frame.height * 1280 / frame.width)), Image.LANCZOS)
-layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-draw = ImageDraw.Draw(layer)
-cx, cy, r = frame.width // 2, frame.height // 2 - 30, 74
-draw.rectangle([0, 0, frame.width, frame.height], fill=(8, 9, 12, 110))
-draw.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(94, 234, 212, 240))
-draw.polygon([(cx - 22, cy - 36), (cx - 22, cy + 36), (cx + 40, cy)], fill=(12, 16, 18, 255))
-poster = os.path.join(DOCS, "trailer.png")
-Image.alpha_composite(frame, layer).convert("RGB").save(poster, optimize=True)
-print("trailer.png  %.1f MB" % size_mb(poster))
+# GitHub does not play video files from a repository, so the README shows the trailer
+# as a silent GIF and links to the video for the sound.
+gif = os.path.join(DOCS, "trailer.gif")
+ffmpeg(
+    "-framerate", FPS, "-i", os.path.join(SRC, "frames", "%05d.png"),
+    "-vf", "fps=12,scale=900:-1:flags=lanczos,split[a][b];"
+           "[a]palettegen=max_colors=128:stats_mode=diff[p];"
+           "[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle",
+    "-loop", "0", gif,
+)
+print("trailer.gif  %.1f MB" % size_mb(gif))

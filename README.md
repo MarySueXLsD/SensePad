@@ -11,10 +11,10 @@ SensePad turns a DualSense controller into a drum machine. Buttons play sounds, 
 ## Trailer
 
 <p align="center">
-  <a href="docs/trailer.mp4"><img src="docs/trailer.png" width="720" alt="Watch the 24-second SensePad trailer"></a>
+  <img src="docs/trailer.gif" width="900" alt="The SensePad trailer: the title, the pads and looper playing, a filter sweep on the stick, a kit of recorded drums, the sound library, controller colours, the light theme, and the link to this repository">
 </p>
 
-**[Watch the trailer](docs/trailer.mp4)** — 24 seconds, with the app's own sound.
+The same trailer with the app's own sound: **[trailer.mp4](https://github.com/MarySueXLsD/SensePad/raw/main/docs/trailer.mp4)** (24 seconds, 2.6 MB).
 
 ## Download
 
@@ -141,7 +141,7 @@ Render every screen to a picture without opening a window (saved to `target/prev
 cargo test --release preview -- --ignored
 ```
 
-The preview GIF and the trailer at the top of this page are recorded the same way: a script plays the app without a window, with the sound engine running in step with the pictures. Record the frames, then encode them (needs Python with `imageio-ffmpeg` and `Pillow`):
+The preview GIF and the trailer at the top of this page are recorded the same way: a script plays the app without a window, with the sound engine running in step with the pictures. Record the frames, then encode them (needs Python with the `imageio-ffmpeg` package):
 
 ```bash
 cargo test --release render_trailer -- --ignored
