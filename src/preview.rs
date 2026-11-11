@@ -105,17 +105,62 @@ fn raster(canvas: &mut Canvas, prims: &[epaint::ClippedPrimitive], textures: &Ha
     }
 }
 
-struct Stage {
-    ctx: egui::Context,
-    app: SensePadApp,
+pub(crate) struct Stage {
+    pub(crate) ctx: egui::Context,
+    pub(crate) app: SensePadApp,
     textures: HashMap<TextureId, Tex>,
-    time: f64,
-    size: (f32, f32),
-    out: PathBuf,
+    pub(crate) time: f64,
+    pub(crate) size: (f32, f32),
+    pub(crate) out: PathBuf,
 }
 
 impl Stage {
-    fn frame(&mut self) -> (Vec<epaint::ClippedShape>, f32) {
+    /// A stage for scripted recordings: a fresh data folder, the English interface and
+    /// the welcome tour already finished.
+    pub(crate) fn fresh(data_name: &str, out: PathBuf) -> Stage {
+        let data = std::env::temp_dir().join(data_name);
+        let _ = std::fs::remove_dir_all(&data);
+        std::fs::create_dir_all(&data).unwrap();
+        std::fs::write(data.join("config.json"), r#"{"language":"En","onboarded":true}"#).unwrap();
+        kit::set_data_dir(data);
+        let _ = std::fs::remove_dir_all(&out);
+        std::fs::create_dir_all(&out).unwrap();
+        let ctx = egui::Context::default();
+        let app = SensePadApp::boot(ctx.clone(), Boot { audio: false, hid: false });
+        let mut s = Stage { ctx, app, textures: HashMap::new(), time: 0.0, size: (1500.0, 980.0), out };
+        s.wait_until_ready();
+        s
+    }
+
+    /// Advance the clock by `dt` seconds, draw one frame and return it as a picture.
+    /// `over` paints above everything (captions, title cards); with `show_app` off it is
+    /// the only thing drawn.
+    pub(crate) fn picture(&mut self, dt: f64, show_app: bool, over: impl FnOnce(&egui::Painter, Rect)) -> image::RgbaImage {
+        self.time += dt;
+        let screen = Rect::from_min_size(Pos2::ZERO, egui::vec2(self.size.0, self.size.1));
+        let input = egui::RawInput { screen_rect: Some(screen), time: Some(self.time), ..Default::default() };
+        let app = &mut self.app;
+        let mut over = Some(over);
+        let out = self.ctx.run_ui(input, |ui| {
+            if show_app {
+                app.frame(ui);
+            }
+            let top = ui.ctx().layer_painter(egui::LayerId::new(egui::Order::Debug, egui::Id::unique("stage-overlay")));
+            if let Some(over) = over.take() {
+                over(&top, screen);
+            }
+        });
+        apply_delta(&mut self.textures, &out.textures_delta);
+        let ppp = out.pixels_per_point;
+        let prims = self.ctx.tessellate(out.shapes, ppp);
+        let (w, h) = ((self.size.0 * ppp) as usize, (self.size.1 * ppp) as usize);
+        let mut canvas = Canvas { w, h, px: vec![[0.0, 0.0, 0.0, 1.0]; w * h] };
+        raster(&mut canvas, &prims, &self.textures, ppp);
+        let bytes: Vec<u8> = canvas.px.iter().flat_map(|p| [p[0], p[1], p[2], 1.0].map(|c| (c.clamp(0.0, 1.0) * 255.0) as u8)).collect();
+        image::RgbaImage::from_raw(w as u32, h as u32, bytes).expect("image")
+    }
+
+    pub(crate) fn frame(&mut self) -> (Vec<epaint::ClippedShape>, f32) {
         self.time += 1.0 / 60.0;
         let input = egui::RawInput {
             screen_rect: Some(Rect::from_min_size(Pos2::ZERO, egui::vec2(self.size.0, self.size.1))),
@@ -145,7 +190,7 @@ impl Stage {
         println!("saved {}", path.display());
     }
 
-    fn wait_until_ready(&mut self) {
+    pub(crate) fn wait_until_ready(&mut self) {
         for _ in 0..1200 {
             self.frame();
             if !self.app.factory_installing && self.app.loading.iter().all(|l| !*l) {
@@ -156,14 +201,14 @@ impl Stage {
         assert!(!self.app.factory_installing, "factory sounds were never finished");
     }
 
-    fn set(&mut self, change: impl FnOnce(&mut kit::Settings)) {
+    pub(crate) fn set(&mut self, change: impl FnOnce(&mut kit::Settings)) {
         let before = self.app.settings.clone();
         change(&mut self.app.settings);
         self.app.on_settings_changed(&before);
     }
 }
 
-fn fake_controller() -> PadSnapshot {
+pub(crate) fn fake_controller() -> PadSnapshot {
     PadSnapshot {
         conn: Some(ConnInfo { model: "DualSense", link: Link::Usb }),
         buttons: Input::Cross.bit() | Input::L1.bit(),

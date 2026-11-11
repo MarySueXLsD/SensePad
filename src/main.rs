@@ -22,6 +22,8 @@ mod packtool;
 mod preview;
 mod seq;
 mod theme;
+#[cfg(test)]
+mod trailer;
 mod ui;
 
 use eframe::egui;

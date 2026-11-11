@@ -149,7 +149,7 @@ impl Shared {
         self.audio.fx.reset();
     }
 
-    fn on_hid(&self, ev: HidEvent) {
+    pub(crate) fn on_hid(&self, ev: HidEvent) {
         match ev {
             HidEvent::Pressed(input) => {
                 if let Some(learn) = self.learning.lock().unwrap().take() {
@@ -327,7 +327,10 @@ pub struct SensePadApp {
     pub(crate) art: Option<TextureHandle>,
     pub(crate) skin_tex: Option<SkinTextures>,
     hit_seen: [u32; PAD_COUNT],
-    hit_at: [Option<Instant>; PAD_COUNT],
+    /// When each pad last sounded, on the interface clock.
+    hit_at: [Option<f64>; PAD_COUNT],
+    /// The interface clock in seconds (egui's time), read once per frame.
+    clock: f64,
     last_step: Option<usize>,
     taps: Vec<Instant>,
     demo_pending: bool,
@@ -443,6 +446,7 @@ impl SensePadApp {
             skin_tex: SkinTextures::load(&ctx),
             hit_seen: [0; PAD_COUNT],
             hit_at: [None; PAD_COUNT],
+            clock: 0.0,
             last_step: None,
             taps: Vec::new(),
             demo_pending: false,
@@ -495,7 +499,7 @@ impl SensePadApp {
 
     /// Seconds since a pad last sounded (by hand or from the looper).
     pub(crate) fn since_hit(&self, pad: usize) -> f32 {
-        self.hit_at[pad].map(|t| t.elapsed().as_secs_f32()).unwrap_or(f32::INFINITY)
+        self.hit_at[pad].map(|t| (self.clock - t) as f32).unwrap_or(f32::INFINITY)
     }
 
     pub(crate) fn apply_theme(&self) {
@@ -1149,7 +1153,7 @@ impl SensePadApp {
             let c = self.audio.hit_count(i);
             if c != self.hit_seen[i] {
                 self.hit_seen[i] = c;
-                self.hit_at[i] = Some(Instant::now());
+                self.hit_at[i] = Some(self.clock);
                 if flash {
                     let _ = self.shared.hid.send(HidCmd::Flash(scaled(self.kit.pads[i].color, self.settings.lightbar_brightness)));
                 }
@@ -1286,6 +1290,7 @@ impl SensePadApp {
 
     /// Everything that has to happen once per frame before drawing.
     pub(crate) fn tick(&mut self, ctx: &egui::Context) {
+        self.clock = ctx.input(|i| i.time);
         self.process_messages();
         self.handle_drops(ctx);
         self.handle_keyboard(ctx);

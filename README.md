@@ -2,9 +2,19 @@
 
 SensePad turns a DualSense controller into a drum machine. Buttons play sounds, the sticks run DJ effects, and a looper remembers what you play.
 
-**Author:** MarySue
+<p align="center">
+  <img src="docs/preview.gif" width="900" alt="SensePad playing a drum and bass loop: pads light up as they sound, the playhead runs across the steps, and the controller on screen presses the buttons">
+</p>
 
-![Main screen](docs/main.png)
+**Author:** [MarySue](https://github.com/MarySueXLsD) · more of my projects on [itch.io](https://marysue.itch.io)
+
+## Trailer
+
+<p align="center">
+  <a href="docs/trailer.mp4"><img src="docs/trailer.png" width="720" alt="Watch the 24-second SensePad trailer"></a>
+</p>
+
+**[Watch the trailer](docs/trailer.mp4)** — 24 seconds, with the app's own sound.
 
 ## Download
 
@@ -131,6 +141,16 @@ Render every screen to a picture without opening a window (saved to `target/prev
 cargo test --release preview -- --ignored
 ```
 
+The preview GIF and the trailer at the top of this page are recorded the same way: a script plays the app without a window, with the sound engine running in step with the pictures. Record the frames, then encode them (needs Python with `imageio-ffmpeg` and `Pillow`):
+
+```bash
+cargo test --release render_trailer -- --ignored
+```
+
+```bash
+python tools/trailer/build.py
+```
+
 The packs are not kept in git: they ship in the release archive and are built from the source recordings. The recipe is `tools/packs/manifest.json` (written by `tools/packs/plan.py`). Download the recordings (about 54 MB) and build the `packs` folder:
 
 ```bash
@@ -158,6 +178,7 @@ SENSEPAD_PACK_SRC=target/pack-src cargo test --release build_packs -- --ignored
 | `src/library.rs` | The sound library: built-in sounds, packs, your folders |
 | `src/packtool.rs`, `tools/packs/` | Building the packs: mixing microphones, trimming, breaks |
 | `src/preview.rs` | Rendering the interface to PNG files for checking |
+| `src/trailer.rs`, `tools/trailer/` | Recording the preview GIF and the trailer |
 
 ## Credits
 

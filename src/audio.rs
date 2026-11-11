@@ -432,6 +432,22 @@ pub struct AudioEngine {
 }
 
 impl AudioEngine {
+    /// Run the engine without a sound device and return what it played: interleaved
+    /// stereo at 48 kHz. The scripted trailer recording uses this.
+    #[cfg(test)]
+    pub fn run_without_device(&self) {
+        // Play and pad hits are only accepted while the engine counts as running.
+        self.handle.view.online.store(true, Ordering::Relaxed);
+    }
+
+    /// One slice of offline playback; see `run_without_device`.
+    #[cfg(test)]
+    pub fn render_offline(&self, frames: usize) -> Vec<f32> {
+        let mut buf = vec![0.0f32; frames * 2];
+        self.mixer.lock().unwrap().process(&mut buf, 2);
+        buf
+    }
+
     /// Create the engine without opening a device yet.
     pub fn new(master: f32) -> (Self, Receiver<SeqEvent>) {
         let (tx, rx) = crossbeam_channel::unbounded();
