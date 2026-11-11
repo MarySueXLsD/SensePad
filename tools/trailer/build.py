@@ -3,9 +3,9 @@
     cargo test --release render_trailer -- --ignored --nocapture
     python tools/trailer/build.py
 
-Writes docs/preview.gif (a silent loop for the top of the README), docs/trailer.mp4
-(with the app's own sound) and docs/trailer.gif (the same trailer, silent, shown in
-the README). Needs the imageio-ffmpeg package.
+Writes docs/preview.gif (a silent loop for the top of the README) and
+target/trailer/trailer.mp4 (the trailer with the app's own sound, for uploading to
+YouTube; the README links to it there). Needs the imageio-ffmpeg package.
 """
 import os
 import subprocess
@@ -43,7 +43,7 @@ print("preview.gif  %.1f MB" % size_mb(preview))
 audio = os.path.join(SRC, "audio.wav")
 with wave.open(audio, "rb") as w:
     seconds = w.getnframes() / w.getframerate()
-trailer = os.path.join(DOCS, "trailer.mp4")
+trailer = os.path.join(SRC, "trailer.mp4")
 ffmpeg(
     "-framerate", FPS, "-i", os.path.join(SRC, "frames", "%05d.png"), "-i", audio,
     "-vf", "scale=1280:-2:flags=lanczos,format=yuv420p",
@@ -52,15 +52,3 @@ ffmpeg(
     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", trailer,
 )
 print("trailer.mp4  %.1f MB, %.1f s" % (size_mb(trailer), seconds))
-
-# GitHub does not play video files from a repository, so the README shows the trailer
-# as a silent GIF and links to the video for the sound.
-gif = os.path.join(DOCS, "trailer.gif")
-ffmpeg(
-    "-framerate", FPS, "-i", os.path.join(SRC, "frames", "%05d.png"),
-    "-vf", "fps=12,scale=900:-1:flags=lanczos,split[a][b];"
-           "[a]palettegen=max_colors=128:stats_mode=diff[p];"
-           "[b][p]paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle",
-    "-loop", "0", gif,
-)
-print("trailer.gif  %.1f MB" % size_mb(gif))
