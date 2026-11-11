@@ -1,0 +1,8 @@
+/target
+/backup
+/dist
+# sample packs are built by tools/packs and shipped in the release zip
+/packs
+# the earlier browser prototype, not part of the app
+/dnb-rig.html
+/start-dnb-rig.bat

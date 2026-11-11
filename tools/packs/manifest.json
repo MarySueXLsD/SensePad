@@ -1,0 +1,3600 @@
+{
+ "license": "CC0-1.0",
+ "packs": [
+  {
+   "name": "Unruly Drums",
+   "by": "Karoryfer Samples",
+   "url": "https://github.com/sfzinstruments/karoryfer.unruly-drums",
+   "sounds": [
+    {
+     "category": "Kicks",
+     "name": "Unruly Kick Clean",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/in/rr1/kick_clean_vl8_rr1.flac",
+       "size": 44112,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/out/rr1/kick_clean_vl8_rr1.flac",
+       "size": 48773,
+       "gain": 0.8,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/oh/rr1/kick_clean_vl8_rr1.flac",
+       "size": 90807,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Kicks",
+     "name": "Unruly Kick Dirty",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/in/rr1/kick_dirty_vl8_rr1.flac",
+       "size": 48239,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/out/rr1/kick_dirty_vl8_rr1.flac",
+       "size": 51097,
+       "gain": 0.8,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/oh/rr1/kick_dirty_vl8_rr1.flac",
+       "size": 99479,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Kicks",
+     "name": "Unruly Kick Dirtiest",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/in/rr1/kick_dirtiest_vl8_rr1.flac",
+       "size": 48047,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/out/rr1/kick_dirtiest_vl8_rr1.flac",
+       "size": 52280,
+       "gain": 0.8,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/k20/oh/rr1/kick_dirtiest_vl8_rr1.flac",
+       "size": 99772,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 13",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/top/rr1/s13_center_vl9_rr1.flac",
+       "size": 42352,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/btm/rr1/s13_center_vl9_rr1.flac",
+       "size": 41799,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohl/rr1/s13_center_vl9_rr1.flac",
+       "size": 48533,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohr/rr1/s13_center_vl9_rr1.flac",
+       "size": 47801,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 13 Rimshot",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/top/rr1/s13_rimshot_vl6_rr1.flac",
+       "size": 53120,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/btm/rr1/s13_rimshot_vl6_rr1.flac",
+       "size": 52804,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohl/rr1/s13_rimshot_vl6_rr1.flac",
+       "size": 59438,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohr/rr1/s13_rimshot_vl6_rr1.flac",
+       "size": 58913,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 13 Side Stick",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/top/rr1/s13_sstick_vl6_rr1.flac",
+       "size": 38956,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/btm/rr1/s13_sstick_vl6_rr1.flac",
+       "size": 38860,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohl/rr1/s13_sstick_vl6_rr1.flac",
+       "size": 44374,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohr/rr1/s13_sstick_vl6_rr1.flac",
+       "size": 43927,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 14",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/top/rr1/s14_center_vl8_rr1.flac",
+       "size": 46448,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/btm/rr1/s14_center_vl8_rr1.flac",
+       "size": 47389,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohl/rr1/s14_center_vl8_rr1.flac",
+       "size": 54278,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohr/rr1/s14_center_vl8_rr1.flac",
+       "size": 53550,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 14 Rimshot",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/top/rr1/s14_rimshot_vl6_rr1.flac",
+       "size": 54336,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/btm/rr1/s14_rimshot_vl6_rr1.flac",
+       "size": 55757,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohl/rr1/s14_rimshot_vl6_rr1.flac",
+       "size": 62335,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohr/rr1/s14_rimshot_vl6_rr1.flac",
+       "size": 61498,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 14 Edge",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/top/rr1/s14_edge_vl7_rr1.flac",
+       "size": 45495,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/btm/rr1/s14_edge_vl7_rr1.flac",
+       "size": 47818,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohl/rr1/s14_edge_vl7_rr1.flac",
+       "size": 52991,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohr/rr1/s14_edge_vl7_rr1.flac",
+       "size": 52195,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 14 Brush",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/top/rr1/s14_b_center_vl6_rr1.flac",
+       "size": 49068,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/btm/rr1/s14_b_center_vl6_rr1.flac",
+       "size": 50772,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohl/rr1/s14_b_center_vl6_rr1.flac",
+       "size": 56744,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s14/ohr/rr1/s14_b_center_vl6_rr1.flac",
+       "size": 55981,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 22",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/top/rr1/s22_center_vl8_rr1.flac",
+       "size": 40292,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/btm/rr1/s22_center_vl8_rr1.flac",
+       "size": 42199,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/ohl/rr1/s22_center_vl8_rr1.flac",
+       "size": 48862,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/ohr/rr1/s22_center_vl8_rr1.flac",
+       "size": 46906,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Unruly Snare 22 Edge",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/top/rr1/s22_edge_vl7_rr1.flac",
+       "size": 39462,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/btm/rr1/s22_edge_vl7_rr1.flac",
+       "size": 41257,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/ohl/rr1/s22_edge_vl7_rr1.flac",
+       "size": 47602,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/ohr/rr1/s22_edge_vl7_rr1.flac",
+       "size": 45590,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Tight",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_tight_tip_vl6_rr1.flac",
+       "size": 44727,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_tight_tip_vl6_rr1.flac",
+       "size": 48224,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_tight_tip_vl6_rr1.flac",
+       "size": 47635,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Closed",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_closed_tip_vl7_rr1.flac",
+       "size": 63276,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_closed_tip_vl7_rr1.flac",
+       "size": 64113,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_closed_tip_vl7_rr1.flac",
+       "size": 64431,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Closed Shank",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_closed_shank_vl6_rr1.flac",
+       "size": 73878,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_closed_shank_vl6_rr1.flac",
+       "size": 74289,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_closed_shank_vl6_rr1.flac",
+       "size": 74918,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Loose",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_loose_tip_vl6_rr1.flac",
+       "size": 155072,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_loose_tip_vl6_rr1.flac",
+       "size": 151775,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_loose_tip_vl6_rr1.flac",
+       "size": 155736,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Quarter Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_quarter_tip_vl6_rr1.flac",
+       "size": 179231,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_quarter_tip_vl6_rr1.flac",
+       "size": 176333,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_quarter_tip_vl6_rr1.flac",
+       "size": 185678,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Half Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_half_tip_vl6_rr1.flac",
+       "size": 294279,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_half_tip_vl6_rr1.flac",
+       "size": 293476,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_half_tip_vl6_rr1.flac",
+       "size": 305819,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_open_tip_vl7_rr1.flac",
+       "size": 275128,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_open_tip_vl7_rr1.flac",
+       "size": 264198,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_open_tip_vl7_rr1.flac",
+       "size": 267404,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Open Shank",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_open_shank_vl4_rr1.flac",
+       "size": 341773,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_open_shank_vl4_rr1.flac",
+       "size": 337414,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_open_shank_vl4_rr1.flac",
+       "size": 340581,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Foot",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_footchik_vl6_rr1.flac",
+       "size": 56095,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_footchik_vl6_rr1.flac",
+       "size": 59785,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_footchik_vl6_rr1.flac",
+       "size": 59606,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Unruly Hat Foot Splash",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/cl/rr1/hh_footspl_vl4_rr1.flac",
+       "size": 316176,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohl/rr1/hh_footspl_vl4_rr1.flac",
+       "size": 320016,
+       "gain": 0.45,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/h14/ohr/rr1/hh_footspl_vl4_rr1.flac",
+       "size": 324034,
+       "gain": 0.45,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Unruly Crash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/c16/cl/rr1/cr_edge_vl5_rr1.flac",
+       "size": 339803,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/c16/oh/rr1/cr_edge_vl5_rr1.flac",
+       "size": 677643,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Unruly Crash Bow",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/c16/cl/rr1/cr_bow_vl5_rr1.flac",
+       "size": 230795,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/c16/oh/rr1/cr_bow_vl5_rr1.flac",
+       "size": 461417,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Unruly Crash Choke",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/c16/cl/rr1/cr_choke_rr1.flac",
+       "size": 54905,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/c16/oh/rr1/cr_choke_rr1.flac",
+       "size": 107856,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Unruly Ride",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/r20/cl/rr1/ride_bow_vl8_rr1.flac",
+       "size": 385149,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/r20/oh/rr1/ride_bow_vl8_rr1.flac",
+       "size": 757561,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Unruly Ride Bell",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/r20/cl/rr1/ride_bell_vl6_rr1.flac",
+       "size": 232969,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/r20/oh/rr1/ride_bell_vl6_rr1.flac",
+       "size": 465947,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Unruly Ride Edge",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/r20/cl/rr1/ride_edge_vl6_rr1.flac",
+       "size": 388255,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/r20/oh/rr1/ride_edge_vl6_rr1.flac",
+       "size": 761816,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Unruly Woodblock High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/wb/cl/rr1/woodblock_hi_vl6_rr1.flac",
+       "size": 36325,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/wb/oh/rr1/woodblock_hi_vl6_rr1.flac",
+       "size": 76143,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Unruly Woodblock Low",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/wb/cl/rr1/woodblock_lo_vl6_rr1.flac",
+       "size": 37025,
+       "gain": 0.9,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/wb/oh/rr1/woodblock_lo_vl6_rr1.flac",
+       "size": 77509,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Unruly Snares Off 13",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/top/rr1/s13_tom_dirty_vl7_rr1.flac",
+       "size": 42246,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohl/rr1/s13_tom_dirty_vl7_rr1.flac",
+       "size": 50425,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s13/ohr/rr1/s13_tom_dirty_vl7_rr1.flac",
+       "size": 49564,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Unruly Snares Off 22",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/top/rr1/s22_tom_clean_vl7_rr1.flac",
+       "size": 37844,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/ohl/rr1/s22_tom_clean_vl7_rr1.flac",
+       "size": 44267,
+       "gain": 0.5,
+       "pan": -0.8
+      },
+      {
+       "repo": "karoryfer.unruly-drums",
+       "branch": "main",
+       "path": "Samples/s22/ohr/rr1/s22_tom_clean_vl7_rr1.flac",
+       "size": 42356,
+       "gain": 0.5,
+       "pan": 0.8
+      }
+     ]
+    }
+   ],
+   "breaks": [
+    {
+     "name": "Unruly Amen-style 170",
+     "bpm": 170,
+     "swing": 0.0,
+     "voices": {
+      "k": "Kicks/Unruly Kick Dirty",
+      "s": "Snares/Unruly Snare 14",
+      "h": "Hi-Hats/Unruly Hat Closed",
+      "oh": "Hi-Hats/Unruly Hat Open",
+      "r": "Cymbals/Unruly Ride",
+      "c": "Cymbals/Unruly Crash",
+      "b": "Percussion/Unruly Woodblock High",
+      "cg": "Percussion/Unruly Woodblock Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.x.......xx.... x.x.......xx.... x.x.......x..... ..xx......x....."
+      ],
+      [
+       "s",
+       "....x..o.o..x..o ....x..o.o..x..o ....x..o.o....x. .o..x..o.o....x."
+      ],
+      [
+       "r",
+       "x.x.x.x.x.x.x.x. x.x.x.x.x.x.x.x. x.x.x.x.x.x.x.x. x.x.x.x.x......."
+      ],
+      [
+       "c",
+       "................ ................ ................ ..........x....."
+      ]
+     ]
+    },
+    {
+     "name": "Unruly Think-style 170",
+     "bpm": 170,
+     "swing": 0.08,
+     "voices": {
+      "k": "Kicks/Unruly Kick Dirty",
+      "s": "Snares/Unruly Snare 14",
+      "h": "Hi-Hats/Unruly Hat Closed",
+      "oh": "Hi-Hats/Unruly Hat Open",
+      "r": "Cymbals/Unruly Ride",
+      "c": "Cymbals/Unruly Crash",
+      "b": "Percussion/Unruly Woodblock High",
+      "cg": "Percussion/Unruly Woodblock Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.....x.x.x..x.. x.x...x...x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x..o....x..o"
+      ],
+      [
+       "h",
+       "x.x.x.x.x.x.x... x.x.x.x.x.x.x.x."
+      ],
+      [
+       "oh",
+       "..............x. ................"
+      ]
+     ]
+    },
+    {
+     "name": "Unruly Two-Step 174",
+     "bpm": 174,
+     "swing": 0.0,
+     "voices": {
+      "k": "Kicks/Unruly Kick Dirty",
+      "s": "Snares/Unruly Snare 14",
+      "h": "Hi-Hats/Unruly Hat Closed",
+      "oh": "Hi-Hats/Unruly Hat Open",
+      "r": "Cymbals/Unruly Ride",
+      "c": "Cymbals/Unruly Crash",
+      "b": "Percussion/Unruly Woodblock High",
+      "cg": "Percussion/Unruly Woodblock Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.........x..... x.........x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x.......x..o"
+      ],
+      [
+       "h",
+       "o.x.o.x.o.x.o.x. o.x.o.x.o.x.o.x."
+      ]
+     ]
+    },
+    {
+     "name": "Unruly Jungle Roller 165",
+     "bpm": 165,
+     "swing": 0.0,
+     "voices": {
+      "k": "Kicks/Unruly Kick Dirty",
+      "s": "Snares/Unruly Snare 14",
+      "h": "Hi-Hats/Unruly Hat Closed",
+      "oh": "Hi-Hats/Unruly Hat Open",
+      "r": "Cymbals/Unruly Ride",
+      "c": "Cymbals/Unruly Crash",
+      "b": "Percussion/Unruly Woodblock High",
+      "cg": "Percussion/Unruly Woodblock Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x..x......x..x.. x..x......x....."
+      ],
+      [
+       "s",
+       "....x.o..o.ox..o ....x.o..o..x.ox"
+      ],
+      [
+       "h",
+       "x.x.x.x.x.x.x.x. x.x.x.x.x.x.x.x."
+      ]
+     ]
+    },
+    {
+     "name": "Unruly Halftime 170",
+     "bpm": 170,
+     "swing": 0.0,
+     "voices": {
+      "k": "Kicks/Unruly Kick Dirty",
+      "s": "Snares/Unruly Snare 14",
+      "h": "Hi-Hats/Unruly Hat Closed",
+      "oh": "Hi-Hats/Unruly Hat Open",
+      "r": "Cymbals/Unruly Ride",
+      "c": "Cymbals/Unruly Crash",
+      "b": "Percussion/Unruly Woodblock High",
+      "cg": "Percussion/Unruly Woodblock Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.....x...x..... x.....x...x...x."
+      ],
+      [
+       "s",
+       "........x....... ........x......."
+      ],
+      [
+       "h",
+       "x.x.x.x.x.x.x.x. x.x.x.x.x.x.x.x."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Swirly Drums",
+   "by": "Karoryfer Samples",
+   "url": "https://github.com/sfzinstruments/karoryfer.swirly-drums",
+   "sounds": [
+    {
+     "category": "Kicks",
+     "name": "Swirly Kick",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/kick_buzz/buzz_kick_with_snare_buzz_vl11_rr1.wav",
+       "size": 53084,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Kicks",
+     "name": "Swirly Marching Kick",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/marching_kick/marching_kick_vl22_rr1_beater.wav",
+       "size": 88276,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/marching_kick/marching_kick_vl22_rr1_reso.wav",
+       "size": 88276,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Kicks",
+     "name": "Swirly Cajon Kick",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/cajon_kick/cajon_kick_vl13_rr1_front.wav",
+       "size": 88276,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/cajon_kick/cajon_kick_vl13_rr1_rear.wav",
+       "size": 88276,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Swirly Snare",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/snare_main/snare_hit_vl12_rr1_top.wav",
+       "size": 123524,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/snare_main/snare_hit_vl12_rr1_btm.wav",
+       "size": 123524,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Swirly Snare Edge",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/snare_edge/snare_edge_vl10_rr1_top.wav",
+       "size": 161562,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/snare_edge/snare_edge_vl10_rr1_btm.wav",
+       "size": 161562,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Swirly Snare Dig",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/snare_dig/snare_dig_vl10_rr1_top.wav",
+       "size": 476236,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/snare_dig/snare_dig_vl10_rr1_btm.wav",
+       "size": 476236,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Tight",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_tight/hh_tight_vl15_rr1.wav",
+       "size": 88244,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Closed",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_closed/hh_closed_vl12_rr1.wav",
+       "size": 88342,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Quarter Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_quarter/hh_quarter_vl10_rr1.wav",
+       "size": 352942,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Half Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_half/hh_half_vl9_rr1.wav",
+       "size": 370582,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_open/hh_open_vl14_rr1.wav",
+       "size": 405862,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Sizzle",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_sizzling/hh_sizzling_vl11_rr1.wav",
+       "size": 176444,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Foot",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_foot/hh_foot_vl9_rr1.wav",
+       "size": 88388,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Swirly Hat Foot Splash",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hat_footsplash/hh_footsplash_vl7_rr1.wav",
+       "size": 264742,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Swirly Crash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/crash/crash_vl12_rr1.wav",
+       "size": 423436,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Swirly Broken Crash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/crash_broken/crash_vl12_rr1.wav",
+       "size": 388372,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Swirly China",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/china/china_vl12_rr1.wav",
+       "size": 705676,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Swirly Splash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/splash/splash_vl12_rr1.wav",
+       "size": 282434,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Swirly Broken Splash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/splash_broken/splash_vl12_rr1.wav",
+       "size": 379336,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Swirly Ride",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/ride/ride_vl15_rr1.wav",
+       "size": 1102812,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Tom 1 High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/tom_vhi/tom_vhi_vl9_rr1.wav",
+       "size": 158836,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Tom 2",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/tom_mhi/tom_mhi_vl10_rr1.wav",
+       "size": 176476,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Tom 3",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/tom_xmed/tom_xmed_vl10_rr1.wav",
+       "size": 176476,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Tom 4",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/tom_mlow/tom_mlow_vl12_rr1.wav",
+       "size": 176476,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Tom 5 Floor",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/tom_floor/tom_floor_vl12_rr1.wav",
+       "size": 176476,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Darbouka",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/darbouka/darbouka_vl12_rr1.wav",
+       "size": 132376,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Djembe",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/djembe/djembe_vl12_rr1.wav",
+       "size": 176476,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Bongo High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/hbongo/hbongo_vl10_rr1.wav",
+       "size": 88346,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Bongo Low",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/lbongo/lbongo_vl10_rr1.wav",
+       "size": 105916,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Swirly Cowbell",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.swirly-drums",
+       "branch": "main",
+       "path": "Samples/cowbell/cowbell_vl9_rr1.wav",
+       "size": 70636,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    }
+   ],
+   "breaks": [
+    {
+     "name": "Swirly Apache-style 172",
+     "bpm": 172,
+     "swing": 0.05,
+     "voices": {
+      "k": "Kicks/Swirly Kick",
+      "s": "Snares/Swirly Snare",
+      "h": "Hi-Hats/Swirly Hat Closed",
+      "oh": "Hi-Hats/Swirly Hat Open",
+      "r": "Cymbals/Swirly Ride",
+      "c": "Cymbals/Swirly Crash",
+      "b": "Percussion/Swirly Bongo High",
+      "cg": "Percussion/Swirly Bongo Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.....x...x..x.. x.....x...x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x.......x..x"
+      ],
+      [
+       "h",
+       "x.xxx.xxx.xxx.xx x.xxx.xxx.xxx.xx"
+      ],
+      [
+       "b",
+       "..x...x...x.x... ..x...x...x.x.x."
+      ],
+      [
+       "cg",
+       "x.......x....... x.......x.x....."
+      ]
+     ]
+    },
+    {
+     "name": "Swirly Funky-style 100",
+     "bpm": 100,
+     "swing": 0.1,
+     "voices": {
+      "k": "Kicks/Swirly Kick",
+      "s": "Snares/Swirly Snare",
+      "h": "Hi-Hats/Swirly Hat Closed",
+      "oh": "Hi-Hats/Swirly Hat Open",
+      "r": "Cymbals/Swirly Ride",
+      "c": "Cymbals/Swirly Crash",
+      "b": "Percussion/Swirly Bongo High",
+      "cg": "Percussion/Swirly Bongo Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.x...x...x..x.. x.x...x...x..x.."
+      ],
+      [
+       "s",
+       "....x..o.o..x..o ....x..o.o..x..o"
+      ],
+      [
+       "h",
+       "xxxxxxx.xxxxxxxx xxxxxxx.xxxxxxxx"
+      ],
+      [
+       "oh",
+       ".......x........ .......x........"
+      ]
+     ]
+    },
+    {
+     "name": "Swirly Liquid Shuffle 174",
+     "bpm": 174,
+     "swing": 0.12,
+     "voices": {
+      "k": "Kicks/Swirly Kick",
+      "s": "Snares/Swirly Snare",
+      "h": "Hi-Hats/Swirly Hat Closed",
+      "oh": "Hi-Hats/Swirly Hat Open",
+      "r": "Cymbals/Swirly Ride",
+      "c": "Cymbals/Swirly Crash",
+      "b": "Percussion/Swirly Bongo High",
+      "cg": "Percussion/Swirly Bongo Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.........x..... x.........x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x.......x..."
+      ],
+      [
+       "h",
+       "x.ox.ox.x.ox.ox. x.ox.ox.x.ox.ox."
+      ],
+      [
+       "r",
+       "x...x...x...x... x...x...x...x..."
+      ]
+     ]
+    },
+    {
+     "name": "Swirly Two-Step 174",
+     "bpm": 174,
+     "swing": 0.0,
+     "voices": {
+      "k": "Kicks/Swirly Kick",
+      "s": "Snares/Swirly Snare",
+      "h": "Hi-Hats/Swirly Hat Closed",
+      "oh": "Hi-Hats/Swirly Hat Open",
+      "r": "Cymbals/Swirly Ride",
+      "c": "Cymbals/Swirly Crash",
+      "b": "Percussion/Swirly Bongo High",
+      "cg": "Percussion/Swirly Bongo Low"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.........x..... x.........x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x.......x..o"
+      ],
+      [
+       "h",
+       "o.x.o.x.o.x.o.x. o.x.o.x.o.x.o.x."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Frankensnare",
+   "by": "Karoryfer Samples",
+   "url": "https://github.com/sfzinstruments/karoryfer.frankensnare",
+   "sounds": [
+    {
+     "category": "Snares",
+     "name": "Franken 10",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/10_basic/top/sn_vl6_rr1.flac",
+       "size": 63861,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/10_basic/btm/sn_vl6_rr1.flac",
+       "size": 67503,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/10_basic/oh/sn_vl6_rr1.flac",
+       "size": 143012,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 12",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/12_basic/top/sn_vl7_rr1.flac",
+       "size": 49221,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/12_basic/btm/sn_vl7_rr1.flac",
+       "size": 52175,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/12_basic/oh/sn_vl7_rr1.flac",
+       "size": 108731,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 13",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_basic/top/sn_vl6_rr1.flac",
+       "size": 43065,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_basic/btm/sn_vl6_rr1.flac",
+       "size": 43830,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_basic/oh/sn_vl6_rr1.flac",
+       "size": 86538,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 13 Rimshot",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_rimshot/top/sn_vl6_rr1.flac",
+       "size": 39802,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_rimshot/btm/sn_vl6_rr1.flac",
+       "size": 39636,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_rimshot/oh/sn_vl6_rr1.flac",
+       "size": 83569,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 13 Tambourine",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_tamb/top/sn_vl7_rr1.flac",
+       "size": 51889,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_tamb/btm/sn_vl7_rr1.flac",
+       "size": 45599,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/13b_tamb/oh/sn_vl7_rr1.flac",
+       "size": 101328,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 A",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_basic/top/sn_vl11_rr1.flac",
+       "size": 74656,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_basic/btm/sn_vl11_rr1.flac",
+       "size": 77969,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_basic/oh/sn_vl11_rr1.flac",
+       "size": 149158,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 A Rimshot",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_rimshot/top/sr_vl3_rr1.flac",
+       "size": 71991,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_rimshot/btm/sr_vl3_rr1.flac",
+       "size": 75730,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_rimshot/oh/sr_vl3_rr1.flac",
+       "size": 146700,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 A Side Stick",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_basic/top/ss_vl5_rr1.flac",
+       "size": 60496,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_basic/btm/ss_vl5_rr1.flac",
+       "size": 63997,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14a_basic/oh/ss_vl5_rr1.flac",
+       "size": 118261,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 D",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14d_basic/top/sn_vl7_rr1.flac",
+       "size": 49986,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14d_basic/btm/sn_vl7_rr1.flac",
+       "size": 53224,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14d_basic/oh/sn_vl7_rr1.flac",
+       "size": 107066,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 P",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14p_basic/top/sn_vl11_rr1.flac",
+       "size": 39773,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14p_basic/btm/sn_vl11_rr1.flac",
+       "size": 42763,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14p_basic/oh/sn_vl11_rr1.flac",
+       "size": 86932,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 P Muted",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14p_muted/top/sm_vl7_rr1.flac",
+       "size": 34776,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14p_muted/btm/sm_vl7_rr1.flac",
+       "size": 37608,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14p_muted/oh/sm_vl7_rr1.flac",
+       "size": 75911,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 S",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14s_basic/top/sn_vl9_rr1.flac",
+       "size": 49188,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14s_basic/btm/sn_vl9_rr1.flac",
+       "size": 47117,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14s_basic/oh/sn_vl9_rr1.flac",
+       "size": 99865,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 14 T",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14t_basic/top/sn_vl6_rr1.flac",
+       "size": 128628,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14t_basic/btm/sn_vl6_rr1.flac",
+       "size": 118015,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/14t_basic/oh/sn_vl6_rr1.flac",
+       "size": 275507,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 16",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/16_basic/top/sn_vl11_rr1.flac",
+       "size": 49503,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/16_basic/btm/sn_vl11_rr1.flac",
+       "size": 50689,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/16_basic/oh/sn_vl11_rr1.flac",
+       "size": 107033,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 16 Side Stick",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/16_basic/top/ss_vl7_rr1.flac",
+       "size": 53220,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/16_basic/btm/ss_vl7_rr1.flac",
+       "size": 52522,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/16_basic/oh/ss_vl7_rr1.flac",
+       "size": 107836,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 18 Prepared",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/18_prep/top/sn_vl7_rr1.flac",
+       "size": 55021,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/18_prep/btm/sn_vl7_rr1.flac",
+       "size": 51978,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/18_prep/oh/sn_vl7_rr1.flac",
+       "size": 107153,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 20",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20_basic/top/sn_vl6_rr1.flac",
+       "size": 53248,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20_basic/btm/sn_vl6_rr1.flac",
+       "size": 54336,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20_basic/oh/sn_vl6_rr1.flac",
+       "size": 96634,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 20 M",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20m_basic/top/sn_vl7_rr1.flac",
+       "size": 117897,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20m_basic/btm/sn_vl7_rr1.flac",
+       "size": 117386,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20m_basic/oh/sn_vl7_rr1.flac",
+       "size": 234177,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 20 M Tight",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20m_tight/top/sn_vl6_rr1.flac",
+       "size": 117762,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20m_tight/btm/sn_vl6_rr1.flac",
+       "size": 117250,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/20m_tight/oh/sn_vl6_rr1.flac",
+       "size": 232427,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 22",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/22_basic/top/sn_vl8_rr1.flac",
+       "size": 47221,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/22_basic/btm/sn_vl8_rr1.flac",
+       "size": 46478,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/22_basic/oh/sn_vl8_rr1.flac",
+       "size": 102110,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken 22 Spring",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/22_spring/top/sn_vl7_rr1.flac",
+       "size": 51691,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/22_spring/btm/sn_vl7_rr1.flac",
+       "size": 47023,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/22_spring/oh/sn_vl7_rr1.flac",
+       "size": 108044,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken Ziggurat 1",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/ziggurat_lev1/top/sn_vl8_rr1.flac",
+       "size": 47142,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/ziggurat_lev1/btm/sn_vl8_rr1.flac",
+       "size": 54359,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/ziggurat_lev1/oh/sn_vl8_rr1.flac",
+       "size": 109888,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Franken Ziggurat 2",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/ziggurat_lev2/top/sn_vl8_rr1.flac",
+       "size": 49204,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/ziggurat_lev2/btm/sn_vl8_rr1.flac",
+       "size": 45291,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/ziggurat_lev2/oh/sn_vl8_rr1.flac",
+       "size": 102937,
+       "gain": 0.6,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Claps",
+     "name": "Franken Clap 1",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_claps/clap_person1_rr1.flac",
+       "size": 76305,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Claps",
+     "name": "Franken Clap 2",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_claps/clap_person2_rr1.flac",
+       "size": 74640,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Claps",
+     "name": "Franken Clap 3",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_claps/clap_person3_rr1.flac",
+       "size": 91778,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Claps",
+     "name": "Franken Clap Stack 1",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_claps/clap_stack_rr1.flac",
+       "size": 99778,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Claps",
+     "name": "Franken Clap Stack 2",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_claps/clap_stack_rr2.flac",
+       "size": 101343,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Claps",
+     "name": "Franken Clap Stack 3",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_claps/clap_stack_rr3.flac",
+       "size": 99810,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Franken Tambourine",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "karoryfer.frankensnare",
+       "branch": "main",
+       "path": "Samples/xtra_tamb/tamb_vl5_rr1.flac",
+       "size": 83626,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    }
+   ],
+   "breaks": []
+  },
+  {
+   "name": "Virtuosity Drums",
+   "by": "Versilian Studios",
+   "url": "https://github.com/sfzinstruments/virtuosity_drums",
+   "sounds": [
+    {
+     "category": "Kicks",
+     "name": "Jazz Kick",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/kickmic/kick/kickmic_kick_snoff_vl4_rr1.flac",
+       "size": 140891,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/kick/mid_kick_snoff_vl4_rr1.flac",
+       "size": 363384,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/kick/oh_kick_snoff_vl4_rr1.flac",
+       "size": 313491,
+       "gain": 0.4,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Kicks",
+     "name": "Jazz Kick Buzz",
+     "seconds": 1.5,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/kickmic/kick/kickmic_kick_snon_vl4_rr1.flac",
+       "size": 112410,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/kick/mid_kick_snon_vl4_rr1.flac",
+       "size": 285149,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/kick/oh_kick_snon_vl4_rr1.flac",
+       "size": 250462,
+       "gain": 0.4,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Jazz Snare",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/snaremic/snare/snaremic_snare_center_vl36.flac",
+       "size": 101557,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/snare/mid_snare_center_vl36.flac",
+       "size": 249869,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/snare/oh_snare_center_vl36.flac",
+       "size": 223974,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Jazz Snare Rimshot",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/snaremic/snare/snaremic_snare_rimshot_vl12.flac",
+       "size": 108902,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/snare/mid_snare_rimshot_vl12.flac",
+       "size": 260301,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/snare/oh_snare_rimshot_vl12.flac",
+       "size": 236423,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Jazz Snare Cross Stick",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/snaremic/snare/snaremic_snare_crossstick_vl16.flac",
+       "size": 116223,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/snare/mid_snare_crossstick_vl16.flac",
+       "size": 308115,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/snare/oh_snare_crossstick_vl16.flac",
+       "size": 269396,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Jazz Snare Buzz",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/snaremic/snare/snaremic_snare_buzz_vl12.flac",
+       "size": 140466,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/snare/mid_snare_buzz_vl12.flac",
+       "size": 330112,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/snare/oh_snare_buzz_vl12.flac",
+       "size": 308817,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Jazz Snare Flam",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/snaremic/snare/snaremic_snare_flam_vl12.flac",
+       "size": 119324,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/snare/mid_snare_flam_vl12.flac",
+       "size": 299771,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/snare/oh_snare_flam_vl12.flac",
+       "size": 268927,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Snares",
+     "name": "Jazz Snare Muted",
+     "seconds": 2.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/snaremic/snare/snaremic_snare_muted_vl16.flac",
+       "size": 63425,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/snare/mid_snare_muted_vl16.flac",
+       "size": 163116,
+       "gain": 0.6,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/snare/oh_snare_muted_vl16.flac",
+       "size": 145190,
+       "gain": 0.5,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Jazz Hat Closed",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/hh/mid_hh_closed_vl4_rr1.flac",
+       "size": 122698,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/hh/oh_hh_closed_vl4_rr1.flac",
+       "size": 111711,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Jazz Hat Half Open",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/hh/mid_hh_half_vl4_rr1.flac",
+       "size": 314828,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/hh/oh_hh_half_vl4_rr1.flac",
+       "size": 298891,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Jazz Hat Open",
+     "seconds": 3.5,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/hh/mid_hh_open_vl4_rr1.flac",
+       "size": 1493113,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/hh/oh_hh_open_vl4_rr1.flac",
+       "size": 1350021,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Hi-Hats",
+     "name": "Jazz Hat Pedal",
+     "seconds": 2.5,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/hh/mid_hh_pedal_vl3_rr1.flac",
+       "size": 282743,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/hh/oh_hh_pedal_vl3_rr1.flac",
+       "size": 245386,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Jazz Crash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/crash/mid_crash_crash_vl3_rr1.flac",
+       "size": 1832655,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/crash/oh_crash_crash_vl3_rr1.flac",
+       "size": 1628049,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Jazz Sizzle Crash",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/crash/mid_crash_sizzle_vl3_rr1.flac",
+       "size": 1680028,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/crash/oh_crash_sizzle_vl3_rr1.flac",
+       "size": 1504314,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Jazz Ride",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/ride/mid_ride_ride_vl3_rr1.flac",
+       "size": 1058738,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/ride/oh_ride_ride_vl3_rr1.flac",
+       "size": 945050,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Jazz Ride Bell",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/ride/mid_ride_bell_vl3_rr1.flac",
+       "size": 1037002,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/ride/oh_ride_bell_vl3_rr1.flac",
+       "size": 938303,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Cymbals",
+     "name": "Jazz Flat Ride",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/flatride/mid_flatride_ride_vl3_rr1.flac",
+       "size": 1540227,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/flatride/oh_flatride_ride_vl3_rr1.flac",
+       "size": 1507641,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Jazz Tom High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/htom/mid_htom_center_vl16.flac",
+       "size": 278571,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/htom/oh_htom_center_vl16.flac",
+       "size": 246151,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Jazz Tom Low",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/mid/ltom/mid_ltom_center_vl16.flac",
+       "size": 502824,
+       "gain": 1.0,
+       "pan": 0.0
+      },
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/oh/ltom/oh_ltom_center_vl16.flac",
+       "size": 435742,
+       "gain": 0.7,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Agogo High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/agogo/Agogo_High_v3_rr1_Close.wav",
+       "size": 98708,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Agogo Low",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/agogo/Agogo_Low_v2_rr1_Close.wav",
+       "size": 215954,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Bell Tree",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/belltree/BellTree_Stroke_rr1_Close.wav",
+       "size": 402618,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Bongo High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/bongoh/BongoH_Hit1_v3_rr1_Close.wav",
+       "size": 102656,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Bongo Low",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/bongol/BongoL_Hit1_v3_rr1_Close.wav",
+       "size": 104664,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Cabasa",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/cabasa/Cabasa1_Rub_v2_rr1_Close.wav",
+       "size": 86900,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Claves",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/claves/Claves1_Hit_v3_rr1_Close.wav",
+       "size": 114434,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Conga High",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/conga/Conga_17_HitHM1_71_127_rr1_Close.wav",
+       "size": 66154,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Conga",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/conga/Conga_22_HitN_101_127_rr1_Close.wav",
+       "size": 115558,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Cowbell",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/cowbell/Cowbell1_Normal_v3_rr1_Close.wav",
+       "size": 83002,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Guiro Fast",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/guiro/Guiro_Fast_rr1_Close.wav",
+       "size": 133624,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Guiro Slow",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/guiro/Guiro_Med_rr1_Close.wav",
+       "size": 165998,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Shaker Down",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/shaker/LShaker_Shake1D_rr1_Close.wav",
+       "size": 138788,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Shaker Up",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/shaker/LShaker_Shake1U_rr1_Close.wav",
+       "size": 136488,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Sleigh Bells",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/sleighbells/Sleighbells_Hit_rr1_Close.wav",
+       "size": 220604,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Tambourine Shake",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/tambourine/Tamb1_Shake_rr1_Close.wav",
+       "size": 127086,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Triangle",
+     "seconds": 5.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/triangle/Triangle1_Hit_v2_rr1_Close.wav",
+       "size": 529764,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Triangle Muted",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/triangle/Triangle1_HitM_v1_rr1_Close.wav",
+       "size": 123074,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Tumba",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/tumba/Tumba_24_HitN_101_127_rr1_Close.wav",
+       "size": 80596,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Vibraslap",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/vibraslap/Vibraslap1_1_Hit_71_127_rr1_Close.wav",
+       "size": 159408,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Whistle Short",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/whistle/Close_BallWhistle_Short-001.wav",
+       "size": 192996,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    },
+    {
+     "category": "Percussion",
+     "name": "Whistle Long",
+     "seconds": 3.0,
+     "sources": [
+      {
+       "repo": "virtuosity_drums",
+       "branch": "master",
+       "path": "Samples/perc/close/whistle/Close_BallWhistle_Long-001.wav",
+       "size": 361336,
+       "gain": 1.0,
+       "pan": 0.0
+      }
+     ]
+    }
+   ],
+   "breaks": [
+    {
+     "name": "Jazz Amen-style 170",
+     "bpm": 170,
+     "swing": 0.0,
+     "voices": {
+      "k": "Kicks/Jazz Kick",
+      "s": "Snares/Jazz Snare",
+      "h": "Hi-Hats/Jazz Hat Closed",
+      "oh": "Hi-Hats/Jazz Hat Open",
+      "r": "Cymbals/Jazz Ride",
+      "c": "Cymbals/Jazz Crash",
+      "b": "Percussion/Bongo High",
+      "cg": "Percussion/Conga"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.x.......xx.... x.x.......xx.... x.x.......x..... ..xx......x....."
+      ],
+      [
+       "s",
+       "....x..o.o..x..o ....x..o.o..x..o ....x..o.o....x. .o..x..o.o....x."
+      ],
+      [
+       "r",
+       "x.x.x.x.x.x.x.x. x.x.x.x.x.x.x.x. x.x.x.x.x.x.x.x. x.x.x.x.x......."
+      ],
+      [
+       "c",
+       "................ ................ ................ ..........x....."
+      ]
+     ]
+    },
+    {
+     "name": "Jazz Funky-style 100",
+     "bpm": 100,
+     "swing": 0.1,
+     "voices": {
+      "k": "Kicks/Jazz Kick",
+      "s": "Snares/Jazz Snare",
+      "h": "Hi-Hats/Jazz Hat Closed",
+      "oh": "Hi-Hats/Jazz Hat Open",
+      "r": "Cymbals/Jazz Ride",
+      "c": "Cymbals/Jazz Crash",
+      "b": "Percussion/Bongo High",
+      "cg": "Percussion/Conga"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.x...x...x..x.. x.x...x...x..x.."
+      ],
+      [
+       "s",
+       "....x..o.o..x..o ....x..o.o..x..o"
+      ],
+      [
+       "h",
+       "xxxxxxx.xxxxxxxx xxxxxxx.xxxxxxxx"
+      ],
+      [
+       "oh",
+       ".......x........ .......x........"
+      ]
+     ]
+    },
+    {
+     "name": "Jazz Liquid Shuffle 174",
+     "bpm": 174,
+     "swing": 0.12,
+     "voices": {
+      "k": "Kicks/Jazz Kick",
+      "s": "Snares/Jazz Snare",
+      "h": "Hi-Hats/Jazz Hat Closed",
+      "oh": "Hi-Hats/Jazz Hat Open",
+      "r": "Cymbals/Jazz Ride",
+      "c": "Cymbals/Jazz Crash",
+      "b": "Percussion/Bongo High",
+      "cg": "Percussion/Conga"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.........x..... x.........x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x.......x..."
+      ],
+      [
+       "h",
+       "x.ox.ox.x.ox.ox. x.ox.ox.x.ox.ox."
+      ],
+      [
+       "r",
+       "x...x...x...x... x...x...x...x..."
+      ]
+     ]
+    },
+    {
+     "name": "Jazz Apache-style 172",
+     "bpm": 172,
+     "swing": 0.05,
+     "voices": {
+      "k": "Kicks/Jazz Kick",
+      "s": "Snares/Jazz Snare",
+      "h": "Hi-Hats/Jazz Hat Closed",
+      "oh": "Hi-Hats/Jazz Hat Open",
+      "r": "Cymbals/Jazz Ride",
+      "c": "Cymbals/Jazz Crash",
+      "b": "Percussion/Bongo High",
+      "cg": "Percussion/Conga"
+     },
+     "tracks": [
+      [
+       "k",
+       "x.....x...x..x.. x.....x...x....."
+      ],
+      [
+       "s",
+       "....x.......x... ....x.......x..x"
+      ],
+      [
+       "h",
+       "x.xxx.xxx.xxx.xx x.xxx.xxx.xxx.xx"
+      ],
+      [
+       "b",
+       "..x...x...x.x... ..x...x...x.x.x."
+      ],
+      [
+       "cg",
+       "x.......x....... x.......x.x....."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
